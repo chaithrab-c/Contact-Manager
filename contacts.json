@@ -1,0 +1,74 @@
+{
+  "contacts": [
+    {
+      "name": "Chaithra",
+      "phone": "9955875853",
+      "email": "chaithra@gmail.com",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "website": "http:jgggwgd",
+      "Department": "MCA",
+      "id": "fc8c",
+      "department": "MCA",
+      "role": "Work"
+    },
+    {
+      "id": "ac52",
+      "name": "Suranjana",
+      "phone": "7692649696",
+      "email": "suranjana@gmail.com",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "website": "http:jgggwgdghhj",
+      "department": "",
+      "role": "Work",
+      "Department": "MSC"
+    },
+    {
+      "id": "d4f4",
+      "name": "Anu",
+      "phone": "6796960707",
+      "email": "anu@gmail.com",
+      "city": "Chikkamagaluru",
+      "state": "Karnataka",
+      "website": "http:gjgjagj",
+      "department": "",
+      "role": "Home",
+      "Department": "bca"
+    },
+    {
+      "id": "7cc8",
+      "name": "Tanu",
+      "phone": "6796969685",
+      "email": "tanu@gmail.com",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "website": "gjffffffffffffffggdh",
+      "department": "",
+      "role": "Friend",
+      "Department": "BE"
+    },
+    {
+      "id": "82ef",
+      "name": "",
+      "phone": "",
+      "email": "",
+      "city": "",
+      "state": "",
+      "website": "",
+      "department": "",
+      "role": ""
+    },
+    {
+      "id": "96af",
+      "name": "",
+      "phone": "",
+      "email": "",
+      "city": "",
+      "state": "",
+      "website": "",
+      "department": "",
+      "role": ""
+    }
+  ]
+}
