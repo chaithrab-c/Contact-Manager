@@ -8,15 +8,7 @@ import api from '../../axiosinstance'
 function EditContact() {
   const { id } = useParams()
   const navigate = useNavigate()
-  const [contacts, setContacts] = useState({
-    name: "",
-    phone: "",
-    email: "",
-    city: "",
-    state: "",
-    website: "",
-    Department: ""
-  })
+  const [contacts, setContacts] = useState([])
 
    const getContact = async () => {
       const res = await api.get(`/contacts/${id}`)
