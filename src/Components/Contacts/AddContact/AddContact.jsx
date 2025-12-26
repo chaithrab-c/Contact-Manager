@@ -20,14 +20,14 @@ function AddContact() {
 
   const addData = async () => {
     await api.post("/contacts", contacts)
-    navigate("/ContactList")   
+    navigate("/ContactList")
   }
 
   return (
     <>
-    <Input contacts={contacts} setContacts={setContacts} />
-    <Button className='m-4 ms-5' variant="success" onClick={addData}>Save</Button>
-    <NavLink to={'/ContactList'} className="btn btn-secondary m-3 ms-5"><i className="fa-solid fa-backward-step me-1"></i> Cancel</NavLink> 
+      <Input contacts={contacts} setContacts={setContacts} />
+      <NavLink to={'/ContactList'} className="btn btn-secondary m-3 ms-5"><i className="fa-solid fa-backward-step me-1"></i> Cancel</NavLink>
+      <Button className='m-4 ms-5' variant="success" onClick={addData}>Save</Button>
     </>
   )
 }
