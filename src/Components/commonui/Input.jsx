@@ -7,7 +7,7 @@ function Input({ contacts, setContacts }) {
     setContacts({ ...contacts, [name]: value })
   }
   return (
-    <form className="p-4">
+    <form className="container p-3">
       {[
         ["Name", "name"],
         ["Phone", "phone"],
@@ -18,15 +18,15 @@ function Input({ contacts, setContacts }) {
         ["Department", "Department"]
       ].map(([label, name]) => (
         <div className="row mb-3" key={name}>
-          <label className="col-2">{label}</label>
-          <div className="col-4">
+          <label className="col-md-3 col-12 mb-1">{label}</label>
+          <div className="col-md-6 col-12">
             <input type="text" name={name} className="form-control" value={contacts[name] || ""} onChange={handleChange} />
           </div>
         </div>
       ))}
-      <div className="row mb-3 align-items-center">
-        <label className="col-2">Role:</label>
-        <div className="col-4">
+      <div className="row mb-3 ">
+        <label className="col-md-3 col-12 mb-1">Role</label>
+        <div className="col-md-6 col-12">
           <select name="role" className="form-control" value={contacts.role || ""} onChange={handleChange}>
             <option value="Select Role" hidden>Select Role</option>
             <option value="Work">Work</option>

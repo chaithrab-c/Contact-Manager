@@ -23,7 +23,7 @@ function ViewContact() {
       <h3>City:{user.city}</h3>
       <h3>State:{user.state}</h3>
       <h3>Website:{user.website}</h3>
-      <h3>Department:{user.Department}</h3>
+      <h3>Department:{user.department}</h3>
       <h3>Role:{user.role}</h3>
     </div>
     <NavLink to={'/ContactList'} className="btn btn-secondary m-3 ms-5"><i className="fa-solid fa-backward-step me-1"></i> Back</NavLink> 

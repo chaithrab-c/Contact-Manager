@@ -26,8 +26,10 @@ function AddContact() {
   return (
     <>
       <Input contacts={contacts} setContacts={setContacts} />
-      <NavLink to={'/ContactList'} className="btn btn-secondary m-3 ms-5"><i className="fa-solid fa-backward-step me-1"></i> Cancel</NavLink>
-      <Button className='m-4 ms-5' variant="success" onClick={addData}>Save</Button>
+      <div className="container">
+        <NavLink to='/ContactList' className="btn btn-secondary m-3 ms-5"><i className="fa-solid fa-backward-step me-1"></i> Cancel</NavLink>
+        <Button className='m-4 ms-5' variant="success" onClick={addData}>Save</Button>
+      </div>
     </>
   )
 }
